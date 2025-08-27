@@ -1,0 +1,17 @@
+text: sample firewall rules
+version: 1
+rules:
+  - id: allow-web
+    description: Allow HTTPS traffic
+    source: any
+    destination: any
+    protocol: tcp
+    port: 443
+    action: allow
+  - id: block-ssh
+    description: Block inbound SSH
+    source: any
+    destination: any
+    protocol: tcp
+    port: 22
+    action: deny

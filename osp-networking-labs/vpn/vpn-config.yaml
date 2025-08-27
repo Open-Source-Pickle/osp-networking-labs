@@ -1,0 +1,8 @@
+name: OSP-VPN
+server: vpn.opensourcepickle.com
+protocol: ikev2
+port: 500
+split_tunnel: true
+dns:
+  - 1.1.1.1
+  - 8.8.8.8

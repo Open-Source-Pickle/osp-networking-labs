@@ -1,0 +1,5 @@
+ssid: OpenSourcePickle-Corp
+security: WPA2-Enterprise
+auth: EAP-TLS
+certificate: corp-wifi-cert.pem
+autojoin: true

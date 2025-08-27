@@ -1,0 +1,7 @@
+targets:
+  - name: Google DNS
+    host: 8.8.8.8
+    type: ping
+  - name: Adyen Portal
+    host: adyen.com
+    type: http
